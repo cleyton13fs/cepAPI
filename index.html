@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega de Produtos Online</title>
+    <link rel="stylesheet" href="cep.css">
+</head>
+<body>
+    <header>
+        <h1>Aplicativo de Entrega de Produtos Online</h1>
+    </header>
+    <main>
+        <section id="cep-section">
+            <h2>Verificar Localização</h2>
+            <form id="cep-form">
+                <label for="cep">Digite seu CEP:</label>
+                <input type="text" id="cep" name="cep" placeholder="00000-000" required>
+                <button type="submit">Consultar</button>
+            </form>
+            <div id="resultado"></div>
+        </section>
+    </main>
+    <script src="cep.js"></script>
+</body>
+</html>
